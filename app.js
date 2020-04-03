@@ -17,9 +17,15 @@ if (getUrlVars()["minutes"]) {
 } else {
   var minutes = 10;
 }
+if (getUrlVars()["color"]) {
+  document.querySelector(".time").style.color = "#" + getUrlVars()["color"];
+}
 var seconds = 0;
 var interval = setInterval(countdown, 1000);
 function countdown() {
+  if (minutes === 0 && seconds === 1) {
+    clearInterval(interval);
+  }
   if (seconds === 0) {
     minutes -= 1;
     seconds = 59;
