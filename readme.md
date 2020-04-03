@@ -13,5 +13,6 @@ This is a JavaScript timer to display on OBS before you want to stream, it can h
 2. Paste it the link: https://atndesign.github.io/TickTak-Timer/
 3. If you want a custom color, you can add at the end of the link "?color=color"(In hex format)
 4. If you want a custom minutes, you can add at the end of the link "?minutes=8"
-5. Enjoy your tick tack timer! 
+5. If you want both the color and custom time you can add at the end of the link: "?minutes=8&color=ff00ff
+6. Enjoy your tick tack timer! 
 
